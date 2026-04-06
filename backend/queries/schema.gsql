@@ -1,0 +1,9 @@
+// GhostWatch — global graph schema (DDL).
+//
+// This file will define:
+//   - Vertex types: e.g. Booth, Voter, Family, Constituency (names TBD).
+//   - Edge types: e.g. VOTED_AT, RELATED_TO, CO_LOCATED_WITH (names TBD).
+//   - The named graph "ghostwatch" and its included types.
+//
+// Run order: define types → create graph → install queries in fraud_detection.gsql.
+// No statements below yet — add CREATE VERTEX / CREATE EDGE / CREATE GRAPH when designing the model.

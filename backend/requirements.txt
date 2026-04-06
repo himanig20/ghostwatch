@@ -1,0 +1,5 @@
+# GhostWatch backend
+python-dotenv>=1.0.0
+pyTigerGraph>=1.4.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0

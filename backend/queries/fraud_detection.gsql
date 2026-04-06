@@ -1,0 +1,7 @@
+// GhostWatch — analytical queries for fraud signals (GSQL).
+//
+// This file will hold:
+//   - Interpreted or installed queries: anomaly scores, subgraph extraction, aggregations.
+//   - Parameterized queries callable from graph_client.py / FastAPI.
+//
+// Depends on schema.gsql. No query bodies yet — placeholders only.
