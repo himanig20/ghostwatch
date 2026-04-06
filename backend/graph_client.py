@@ -100,9 +100,9 @@ class TigerGraphClient:
                 anomaly = None
                 if relation.upper() in ["SON", "DAUGHTER"]:
                     if v_age >= related_age:
-                        anomaly = f"Child ({v_name}, age {v_age}) is older than Parent ({related_name}, age {related_age})"
-                    elif related_age - v_age < 14:
-                        anomaly = f"Age gap only {related_age - v_age} years between Parent and Child"
+                      anomaly = f"Child ({v_name}, age {v_age}) is older than Parent ({related_name}, age {related_age})"
+                    elif related_age - v_age < 16:
+                      anomaly = f"Age gap only {related_age - v_age} years between Parent ({related_name}, {related_age}) and Child ({v_name}, {v_age})"
                 if anomaly:
                     results.append({
                         "voter_id": "EPIC_FAM00001",
